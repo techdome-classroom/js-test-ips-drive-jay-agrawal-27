@@ -16,7 +16,7 @@ function smallestMissingPositiveInteger(nums) {
           return i+1;
         }
       }
-      
+      return nums
   }
   
   module.exports = smallestMissingPositiveInteger;
