@@ -10,6 +10,8 @@ function smallestMissingPositiveInteger(nums) {
           nums[index]=-nums[index];
         }
       }
+
+      
   }
   
   module.exports = smallestMissingPositiveInteger;
