@@ -12,8 +12,11 @@ function smallestMissingPositiveInteger(nums) {
       }
 
       for(let i=0; i<nums.length ;i++);{
-        if(nums[i]>0)
+        if(nums[i]>0){
+          return i+1;
+        }
       }
+      
   }
   
   module.exports = smallestMissingPositiveInteger;
