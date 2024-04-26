@@ -7,7 +7,7 @@ function longestSubstring(s) {
     for(let i=0;i<s.length;i++){
         let currentstring=new Set();
         for(let x=i;x<s.length;x++){
-            
+            if(currentstring)
         }
     }
 }
