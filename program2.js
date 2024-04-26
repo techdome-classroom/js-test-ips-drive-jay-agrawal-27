@@ -13,7 +13,7 @@ function longestSubstring(s) {
                 currentstring.add(s[x]);
             }
         }
-        
+        longestSubstring=Math.max
     }
 }
 
