@@ -5,7 +5,10 @@ function smallestMissingPositiveInteger(nums) {
       nums = nums.filter(nums=>0);
       for (let i=0;i<nums.length;i++){
         let index=Math.abs(nums[i])-1;
-        
+         
+        if(index<nums.length&& nums>0){
+          
+        }
       }
   }
   
